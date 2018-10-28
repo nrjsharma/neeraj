@@ -1,0 +1,125 @@
+GitHub—->
+Un - nrjsharma
+Pass- mybirthdate7593
+
+Bitbucket—>
+email=nrjsharma083@gmail.com
+pass=Mybirthdate7593
+Un=nrjsharma
+
+1. Download git form 
+
+https://git-scm.com/download/mac
+
+2 .try command > which git
+
+It tell you where git is installed
+
+3. Try git --version
+
+It tell you version of the git
+
+4. Create local git repository
+
+Go to your project ex > cd socialMedia/
+
+Then enter 
+
+1. Initialize the local directory as a Git repository.
+
+> git init
+
+Then enter > ls -a
+
+That will show .git file in the folder
+
+2. Add the files in your new local repository. This stages them for the first commit.
+
+> git add .
+
+3.Commit the files that you've staged in your local repository.
+
+> git commit -m "First commit”
+
+4. Check status using 
+
+> git status 
+
+5. Show all commits 
+
+> git log
+
+6. In Terminal, add the URL for the remote repository where your local repository will be pushed.
+
+> git remote add origin URL
+
+7. Now push 
+
+> git push -u origin master
+
+Then enter user name and password
+
+And this will upload all the file to GitHub
+
+
+
+
+After that when you change the code and want to upload to the git then
+
+
+Check status that will show you all your files name in which content is changed
+
+> git status
+
+2. Add the files
+
+> git add . 
+
+Or 
+
+> git add file name ( if you want to upload single file )
+
+3.Commit the files that you've staged in your local repository.
+
+> git commit -m "secound commit”
+
+4. Now push 
+
+> git push -u origin master
+
+
+
+
+FOR BitBucket
+
+Same as GitHub
+
+Like first do 
+git init
+
+> git add .
+> git commit -m "First commit”
+
+6. In Terminal, add the URL for the remote repository where your local repository will be pushed.
+
+> git remote add origin URL
+
+7. Now push 
+
+> git push -u origin master
+
+If 7 no gives an error then use following command
+
+git push origin master —force
+
+
+
+
+
+How TO pull the files 
+
+git branch --set-upstream-to=origin/master master
+
+git pull
+
+
